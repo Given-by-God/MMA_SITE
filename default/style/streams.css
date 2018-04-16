@@ -1,0 +1,98 @@
+.streams{
+    background: #ffffff;
+    /*color white-space:;*/
+    float:  left;
+    width: 70%;
+}
+
+table{
+    width: 65%;
+    margin: 10% auto 1% auto;
+    /* text-align:  center; */
+    font-size: 21px;
+    text-transform:  uppercase;
+}
+
+@media  only screen and (max-width :600px) {
+    .mainContent{
+        margin:3% auto !important;
+    }
+
+
+}
+
+.listOfAvailableStreams{
+    display:  flex;
+    justify-content:  space-around;
+}
+.listOfAvailableStreams div{
+    background: #342f85;
+    padding:  7px;
+    cursor:  pointer;
+}
+
+
+.stream img{
+    width: 100%;
+}
+
+.streams h2{
+    color: white;
+    text-align:  center;
+    margin-top:  1%;
+    padding:  1%;
+}
+
+.listOfStream{
+    color: white;
+    overflow:  hidden;
+    width:  100%;
+    /* width:  842px; */
+    display:  flex;
+    flex-flow: column nowrap;
+}
+
+.imgOfStreams{
+    flex: 1 1 12%;
+    /* flex-basis: 22%; */
+    /* width: auto; */
+    margin: 2% 2% 1% 2%;
+}
+.descOfStream{}
+
+.listOfStream ul li{
+    /* float: left; */
+    width: 50%;
+    margin: 2% auto;
+    height: 325px;
+    background: white;
+}
+
+.stream{
+    /* text-align:  center; */
+    display:  flex;
+    flex-flow: column nowrap;
+    flex: 1 1 19%;
+    /* justify-content:  center; */
+}
+.mainContent{
+    max-width: 1200px;
+    margin: 0% auto;
+    background: #ffffff;
+}
+
+@media  only screen and (max-width :879px) {
+    aside{
+        display:none !important;
+    }
+    .streams{
+        width:100%;
+    }
+}
+
+.nameOfEvent{
+    background: #342f85;
+    color: white;
+}
+table th,td{text-align: center;}
+.watchCard{}

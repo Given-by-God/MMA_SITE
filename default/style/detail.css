@@ -1,0 +1,240 @@
+.nameOfFighterDetail{
+    /* width: 61%; */
+    font-size: 38px;
+}
+
+.infoAboutFighterDetail{
+    overflow:  hidden;
+    margin: 1%;
+}
+/*.infoAboutFighterDetail img{}*/
+
+.imgOfFighter{
+    float:  left;
+    /* width: 140px; */
+    /* height: 471px; */
+    /* margin: 0 auto; */
+}
+.imgOfFighter img{
+    width: 100%;
+    height:  100%;
+}
+
+.birthAndAge{
+    /* display: block; */
+    /* clear:  both; */
+    float:  left;
+    /* width:  57%; */
+}
+.birthAndAge ul li{}
+
+
+
+.age{
+    /* float: inherit; */
+    /* clear: left; */
+}
+
+.weightHeightCat{
+    float:  left;
+    width: 100%;
+}
+.weightHeightCat ul li{
+    float:  left;
+    margin-left: 6%;
+}
+.weightHeightCat ul li:first-child{
+    /* float:  left; */
+    margin-left: 0;
+}
+
+.weightHeightCat ul li ul li{
+    /* float:  left; */
+    width:  100%;
+    margin-left:  0;
+}
+
+.mainBlock{
+    /* background: #ffffff !important; */
+    float:  left;
+    width:  70%;
+}
+.detailInfo{
+    overflow:  hidden;
+    /* top: 16px; */
+    position:  relative;
+    margin: 1% 1% 1% 2%;
+    /* float:  left; */
+    /* width: 504px; */
+    /* margin: 0 auto; */
+}
+
+.nextFight{}
+
+.nextFight{
+    width: 52%;
+    margin:  0 auto;
+    background: #757575;
+}
+
+.nextFight p{
+    background:  red;
+    color: white;
+    text-align:  center;
+}
+
+.imgNextFight{
+    color:  white;
+}
+.imgNextFight ul li{
+    float:  left;
+    width: 40%;
+    /* margin:  0 auto; */
+    text-align: center;
+    cursor:  pointer;
+    /* border: 1px solid; */
+}
+.imgNextFight img{
+    width:  100%;
+    height:  100%;
+    background: #d0d0d0;
+}
+
+.nameOfNextEvent{
+    width: 23%;
+    margin:  0 auto;
+    text-align:  center;
+    background: #2c3f79;
+    color:  white;
+}
+
+.watchAllCard{
+    /* overflow:  hidden; */
+    clear:  both;
+    text-align:  center;
+    background: #2c3f79;
+    color: white;
+    width: 25%;
+    margin: 1% auto;
+    cursor:  pointer;
+}
+
+.versusDetail{width: 20% !important;position:  relative;text-transform:  uppercase;font-size: 35px;top: 55px;}
+
+.nextFightName{
+    margin: 5% auto;
+    background: #2f3a7d;
+    text-align:  center;
+    color: white;
+    font-size:  22px;
+    text-transform:  uppercase;
+}
+
+.imgNextFight ul li ul li{
+    clear:  both;
+    width: 100%;
+    margin-top:  2%;
+}
+
+.specialBlockForDetailPage{
+    max-width: 1200px;
+    overflow: hidden;
+    background: white;
+    margin: 8% auto;
+}
+
+table{
+    width: 100%;
+    margin-top: 0;
+    text-align:  center;
+}
+
+table tr{
+    /* background: rebeccapurple; */
+}
+table tr th{
+    background: #274376;
+    border: 1px solid white;
+    height:  52px;
+    text-align:  center;
+    color: white;
+}
+table tr td{
+    border:  1px solid white;
+    height: 75px;
+}
+
+.historyOfFightsName{
+
+}
+@media  only screen and (max-width :879px) {
+    aside{
+        display:none !important;
+    }
+    .mainBlock{
+        width:100%;
+    }
+    .specialBlockForDetailPage{
+        margin: 0 auto !important;
+    }
+
+}
+
+@media  only screen and (max-width : 588px) {
+    .imgOfFighter {
+        float: none;
+        margin: 0 auto;
+        width:  174px;
+    }
+    .detailInfo {
+        overflow: hidden;
+        position: relative;
+        width: 504px;
+    }
+}
+
+.watchAllCard:hover{
+    background:#4f5cab
+}
+.imgNextFight>ul>li{
+    border:1px solid #757575
+}
+
+.imgNextFight>ul>li:hover{
+    border:1px solid #2f3a7d
+}
+
+.versusDetail{
+    border:1px solid #757575 !important;
+    cursor:default;
+
+}
+
+.versusDetail:hover{
+    border:1px solid #757575;
+    cursor:default;
+
+}
+
+@media  only screen and (max-width :759px) {
+    .versusDetail {
+        top: 0;
+    }
+    .watchAllCard {
+        width: 100%;
+    }
+}
+@media  only screen and (max-width :514px) {
+    .versusDetail {
+        font-size: 23px !important;
+    }
+    .watchAllCard {
+        width: 100%;
+    }
+}
+
+@media  only screen and (max-width :514px) {
+    .nextFight {
+        width: 78%
+    }
+}

@@ -1,0 +1,174 @@
+.mainBlockFighters{
+    margin: 2% auto;
+    width: 70%;
+    /* border: 1px solid; */
+    overflow:  hidden;
+    position:  relative;
+    background: #ffffff;
+    float:  left;
+}
+
+.chemp:hover{
+    border:4px solid #35288a;
+    cursor:pointer;
+
+}
+.contenders>ul>li{
+
+    border: 4px solid #ffffff;
+}
+.contenders>ul>li:hover{
+
+    border: 4px solid #35288a;
+}
+.contenders>ul{
+    display:  flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+}
+
+
+@media  only screen and (max-width : 700px) {
+    .fightersSpecialPage{
+        margin:11% auto !important
+    }
+}
+
+
+@media  only screen and (max-width : 575px) {
+    .chemp{
+        width: 255px;
+        margin: 5% auto !important;
+        clear:both;
+    }
+
+}
+
+@media  only screen and (max-width : 860px) {
+    .mainBlockFighters{
+        margin: 0% auto !important;
+    }
+
+}
+
+
+.chemp{
+    width: 188px;
+    margin: 3% auto;
+    border:  4px solid white;
+}
+
+.chemp img{width: 100%;height: 100%;background: #7b7b7b;}
+
+.contenders{
+    overflow:  hidden;
+}
+
+.contenders ul li{
+    /* width: 16%; */
+    /* float:  left; */
+    margin: 1% 1.5%;
+    /* overflow:  hidden; */
+    cursor:  pointer;
+    /* position:  relative; */
+    /* border: 4px solid #35288a; */
+}
+.contenders ul li img{
+    /* float:  left; */
+    width:  100%;
+    height: auto;
+    overflow:  hidden;
+    background: #828282;
+}
+
+.infoAboutFighter{
+    /* overflow:  hidden; */
+    height:  100px;
+    /* background: black; */
+    position: relative;
+    /* top: 128px; */
+    /* cursor:  pointer; */
+}
+.infoAboutFighter ul li{/* margin-right: 16%; */color: #000000;width: 96%;text-align:  center;overflow:  hidden;}
+
+.searchFighters{margin: 3% auto 2% auto;width: 37%;height: 45px;font-size: 38px;}
+
+.searchFighters input{
+    width: 100%;
+    height: 100%;
+    /* margin: 0 auto; */
+    /* text-align:  center; */
+    font-size: 24px;
+}
+
+.weightCatMan{
+    overflow:  hidden;
+    /* height: 31px; */
+    /* background:  black; */
+    float:  left;
+    margin-left: 2%;
+}
+.weightCatMan ul li{
+    /* float:  left; */
+    /* background: #861700; */
+    margin-top: 4%;
+    /* height: 31px; */
+    /* font-size:  18px; */
+    color:  white;
+    /* width: 15%; */
+    text-align:  center;
+}
+
+.fightersSpecialPage{
+    overflow:  hidden;
+    background: #ffffff;
+}
+
+.weightCatWomen{
+    overflow:  hidden;
+    /* height: 31px; */
+    /* background:  black; */
+    position:  relative;
+    /* top: 9px; */
+    margin-right: 2%;
+    float:  right;
+}
+.weightCatWomen ul li{
+    /* float:  left; */
+    /* background: #861700; */
+    margin: 4% 0;
+    /* height: 31px; */
+    /* font-size:  18px; */
+    /* color:  white; */
+    /* width: 15%; */
+    text-align:  center;
+}
+
+
+@media  only screen and (max-width :879px) {
+    aside{
+        display:none !important;
+    }
+    .mainBlockFighters{
+        width:100%;
+    }
+}
+
+.chempInfo{
+    height: 81px;
+}
+.chempInfo ul li{
+    height: 26px;
+    color: black;
+}
+.borderAroundFighter{
+    /* border: 5px solid #35288a; */
+    /* border-bottom:  none; */
+}
+.nameOfWeightCat{
+    background: #342f85;
+    color: white;
+    text-align:  center;
+    font-size:  20px;
+    text-transform: uppercase;
+}

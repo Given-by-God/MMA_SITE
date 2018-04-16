@@ -1,0 +1,401 @@
+*{
+    /* border: 0.1px solid red; */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.textOnMainArticle a:hover,.nameOfCalendar a:hover{
+    color:#732335;
+    text-decoration:none;
+}
+.blockOnDetailPageImg {
+    flex: 1 1 auto;
+}
+.blockOnDetailPageText{text-align:center}
+
+.blockOnDetailPage{display:flex;flex-flow:  column;flex-basis:  30%;}
+
+ul{
+    margin: 0 !important;
+}
+
+.textOnMainArticle h2{
+    font-size: 1.3rem;
+    /* font-weight: 600; */
+}
+
+.textOnMainArticle a{
+    color:black;
+}
+
+.nameOfCalendar a{
+    color:black;
+}
+.video{
+    display:  flex;
+    flex-flow: column nowrap;
+    justify-content:  center;
+    border-bottom:  1px solid black;
+    /* border-bottom:  1px solid black; */
+    margin-bottom: 11px;
+}
+
+.videoImg img{
+    width:  100%;
+}
+
+.nameOfVideo{
+    text-align:  center;
+}
+
+.textOnMainArticle:hover{
+    /* color:#473ac2; */
+    /* cursor:pointer; */
+}
+.month{
+    background: #4242bb;
+    color: white;
+}
+
+.rightMenu div{
+    flex:  1 1 auto;
+    text-align:  center;
+    font-size:  22px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+.rightMenu div:hover{
+
+    background: #4242bb;
+    color: white;
+    cursor:pointer;
+}
+
+
+.nameOfCalendar span:hover{
+    /* color: #483ac4; */
+    /* cursor:pointer; */
+}
+
+.nameOfCalendar span{
+    display:  table-cell;
+    vertical-align:  middle;
+}
+
+
+aside{
+    margin: 2% 0 0 1%;
+    float: left;
+    width: 28%;
+    /* height:  701px; */
+}
+.scrollRightMenu{
+    /* overflow:  scroll; */
+    /* overflow-x:  hidden; */
+    /* height: 800px; */
+    /* direction:  rtl; */
+}
+
+.bestOfTheWeek{margin: 2% 0 2% 0;border-bottom: 1px solid;/* padding-bottom: 11px; */overflow:  hidden;padding-bottom: 4px;}
+
+.coutOfArticle img{
+    width: 100%;
+    height: 100px;
+}
+
+
+.coutOfArticle{float:  left;display:  inline-block;width: 43%;/* height: 152px; */margin-right: 1%;}
+
+
+.textOfTopArticles span:hover{
+    color:#167bb9;
+    cursor:pointer;
+}
+
+.nameOfCalendar{
+    font-size: 18px;
+    text-align:  center;
+    display:  table;
+    height: 85px;
+    padding: 0 5%;
+    margin:  0 auto;
+}
+
+.numberOfMonth{
+    font-size: 28px;
+    border-bottom: 1px solid;
+    /* color:  red; */
+}
+
+
+.calendarData{
+    width: 58px;
+    display:  inline-block;
+    /* clear:  both; */
+    float:  left;
+    border:  1px solid blue;
+    text-align:  center;
+    margin-left: 1%;
+}
+
+.calendarData ul li{}
+
+.calendar{
+    width:  100%;
+    overflow:  hidden;
+    border-bottom: 1px solid;
+    padding: 2px 0;
+    /* border-top:  1px solid; */
+    margin-bottom: 6px;
+}
+
+
+
+.rightMenu{
+    display:  flex;
+    justify-content:  space-between;
+}
+.rightMenu ul li:hover{background: #323581;color:  white;}
+
+.rightMenu ul li{
+    float:  left;
+    width: 45%;
+    /* margin-left: 5%; */
+    /* height: 28px; */
+    font-size:  23px;
+    text-align:  center;
+    cursor:  pointer;
+    /* padding: 0%; */
+    border: 1px solid black;
+    /* margin-right: 0%; */
+}
+
+.newsByFighter{
+    width: 100% !important;
+}
+
+
+.titleCommon {
+    text-align: center;
+    /*padding: 1%;*/
+    /* font-size: 20px; */
+    /*text-transform: uppercase;*/
+    width:100%;
+    margin:  0 auto;
+    background: #323581;
+}
+
+.titleCommon span{
+    text-align: center;
+    margin: 1%;
+    color:white;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+
+
+.textOfTopArticles {
+    float: left;
+    display: table;
+    width: 56%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.textOfTopArticles span{vertical-align: middle;display:  table-cell;font-size: 20px;}
+
+.textOfTopArticles span:hover{
+    color: #473ac2;
+    cursor:pointer;
+}
+.data{float: left;margin: 1%;/* background:  red; */display:  inline-block;/* background:  white; */color: #721c24;}
+
+.tag{
+    display:  inline-block;
+    float: right;
+    /* width:  12%; */
+    margin: 1%;
+    background: #473ac2;
+    color: white;
+}
+
+body{
+    background: url("img/back2.jpg") top fixed no-repeat;
+}
+
+
+@media  only screen and (max-width : 560px) {
+    .filterFlex{flex-flow: row wrap !important;/* flex-basis: 100px; *//* flex-direction:  row; */}
+
+}
+
+@media  only screen and (max-width : 880px) {
+    .bottomArticle {
+        max-width: 100% !important;
+    }
+}
+
+.bottomArticle{
+    display:  flex;
+    flex-flow: row wrap;
+    /* margin:  10px; */
+    /* padding:  10px; */
+}
+.articleOnMain{
+    flex-flow:  row nowrap;
+    display:  flex;
+    margin: 5px;
+    align-items: flex-start;
+    /* border-bottom: 1px solid white; */
+    border-top: 1px solid #d4d4d4;
+    /* background: white; */
+}
+.imageOnMainArticle img{
+    width:  100%;
+    height:  auto;
+}
+
+
+@media  only screen and (max-width : 880px) {
+    .textOnMainArticle{
+        font-size: 13px;
+        font-weight: 600;
+        margin: 0 0 0 7px !important;
+    }
+}
+
+.text{
+    margin:  6px;
+    padding:  1px;
+
+}
+.textOnMainArticle{
+    flex: 2 1 100px;
+    margin:  10px;
+}
+
+
+.imageOnMainArticle{flex: 1 1 25px;min-width: 120px;}
+@media  only screen and (max-width : 560px) {
+    .filterFlex{flex-flow: row wrap !important;/* flex-basis: 100px; *//* flex-direction:  row; */}
+
+}
+
+.insideFilterBlock:hover{
+    background: #473ac2;
+    color:white;
+    cursor:  pointer;
+}
+.insideFilterBlock{
+
+    text-align:  center;
+
+    padding: 5px;
+    display: table;
+    border-radius: 4px;
+
+}
+.insideFilterBlock select{
+    text-transform: uppercase;
+}
+
+.filter{
+    overflow:  hidden;
+    width: 98%;
+    margin: 0 auto;
+    background: #7badff;
+    text-transform:  uppercase;
+    color: black;
+}
+.filter ul li{
+    float:  left;
+    margin: 1% 2%;
+
+    padding: 1%;
+    cursor:  pointer;
+
+}
+.filter ul li:hover{
+    background: #2a2396;
+    color: white;
+}
+
+.filterFlex{
+    display:  flex;
+    flex-flow:  row nowrap;
+    justify-content: space-around;
+}
+
+
+.widget>nav{
+    margin:0 0 0 20px;
+}
+
+.nameOfFilter{
+    text-align:  center;
+    margin: 1%;
+}
+
+.widget{
+    width: 98%;
+    margin: 2% auto 3% auto;
+}
+
+.search{
+    color: #b9b9b9;
+    font-size: 0.75em;
+    padding: 15px 20px;
+    border:1px solid #b0e1ef;
+    width: 100%;
+    margin:  0 auto;
+}
+
+
+.widget h2{
+    text-transform: uppercase;
+    background: #f8f8f8;
+    border-left: 3px solid green;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.dataAndTagMain{
+    overflow:hidden;
+}
+.center-block-main{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.cls{
+    clear: both;
+}
+
+.mainBlock{
+    overflow:  hidden;
+    position:  relative;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+}
+
+.rightMenu ul li:first-child{
+    width: 52%;
+}
+
+.text:hover{
+    color:#4c30ce;
+    cursor:pointer;
+}
+
+.commonBlock{
+    margin: 4% auto 2% auto;
+    max-width: 1200px;
+    overflow:  hidden;
+    /* margin: 2%; */
+    /* background:  red; */
+}
+
