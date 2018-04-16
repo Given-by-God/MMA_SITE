@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61ec560e-64da-458b-8b87-5c9c164fe527" name="Default" comment="" />
+    <list default="true" id="61ec560e-64da-458b-8b87-5c9c164fe527" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/detailNews.html" beforeDir="false" afterPath="$PROJECT_DIR$/default/detailNews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/default/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/style/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/default/style/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/style/detailNews.css" beforeDir="false" afterPath="$PROJECT_DIR$/default/style/detailNews.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +37,8 @@
             <file leaf-file-name="detailNews.css" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/default/style/detailNews.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="915">
-                    <caret line="589" column="1" selection-start-line="589" selection-start-column="1" selection-end-line="589" selection-end-column="1" />
+                  <state relative-caret-position="753">
+                    <caret line="597" column="1" selection-start-line="597" selection-start-column="1" selection-end-line="597" selection-end-column="1" />
                   </state>
                 </provider>
               </entry>
@@ -47,8 +53,8 @@
       <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/default/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3978">
-              <caret line="221" column="19" selection-start-line="209" selection-start-column="19" selection-end-line="221" selection-end-column="19" />
+            <state relative-caret-position="1926">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
             </state>
           </provider>
         </entry>
@@ -56,8 +62,8 @@
       <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/default/style/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7218">
-              <caret line="401" selection-start-line="401" selection-end-line="401" />
+            <state relative-caret-position="7254">
+              <caret line="403" selection-start-line="403" selection-end-line="403" />
             </state>
           </provider>
         </entry>
@@ -65,17 +71,26 @@
       <file leaf-file-name="detailNews.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/default/detailNews.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="785">
-              <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+            <state relative-caret-position="405">
+              <caret line="283" column="54" selection-start-line="283" selection-start-column="54" selection-end-line="283" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/default/style/news.css">
+      <file leaf-file-name="mainPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/default/mainPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9504">
-              <caret line="528" column="7" selection-end-line="550" selection-end-column="1" />
+            <state relative-caret-position="808">
+              <caret line="363" selection-start-line="363" selection-end-line="363" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/default/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-61">
+              <caret line="180" column="26" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -92,9 +107,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main</find>
-      <find>новос</find>
-      <find>fl</find>
       <find>article</find>
       <find>footerBl</find>
       <find>data</find>
@@ -122,7 +134,13 @@
       <find>aside</find>
       <find>кален</find>
       <find>video</find>
+      <find>hr</find>
+      <find>актуальн</find>
+      <find>календа</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -150,7 +168,6 @@
         <option value="$PROJECT_DIR$/default/style/footer.css" />
         <option value="$PROJECT_DIR$/default/style/header.css" />
         <option value="$PROJECT_DIR$/default/mainPage.html" />
-        <option value="$PROJECT_DIR$/default/main.html" />
         <option value="$PROJECT_DIR$/default/style/main.css" />
         <option value="$PROJECT_DIR$/default/style/mainPage.css" />
         <option value="$PROJECT_DIR$/default/style/streams.css" />
@@ -162,9 +179,10 @@
         <option value="$PROJECT_DIR$/default/detail.html" />
         <option value="$PROJECT_DIR$/default/style/news.css" />
         <option value="$PROJECT_DIR$/default/style/detail.css" />
-        <option value="$PROJECT_DIR$/default/style/common.css" />
-        <option value="$PROJECT_DIR$/default/style/detailNews.css" />
         <option value="$PROJECT_DIR$/default/news.html" />
+        <option value="$PROJECT_DIR$/default/style/common.css" />
+        <option value="$PROJECT_DIR$/default/main.html" />
+        <option value="$PROJECT_DIR$/default/style/detailNews.css" />
         <option value="$PROJECT_DIR$/default/detailNews.html" />
       </list>
     </option>
@@ -184,12 +202,15 @@
     <option name="width" value="928" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,19 +229,10 @@
               <item name="default" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MMA SITE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MMA SITE" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,15 +347,18 @@
       <workItem from="1523613387692" duration="26165000" />
       <workItem from="1523775161120" duration="4197000" />
       <workItem from="1523788652336" duration="10915000" />
-      <workItem from="1523838815623" duration="780000" />
+      <workItem from="1523838815623" duration="5176000" />
+      <workItem from="1523883280172" duration="4283000" />
+      <workItem from="1523888816805" duration="3060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258515000" />
+    <option name="totallyTimeSpent" value="270254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="992" y="24" width="928" height="1056" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -354,11 +369,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2913832" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23922902" />
       <window_info anchor="right" id="Database" order="6" weight="0.32993197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -455,13 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/default/mainPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6534">
-          <caret line="363" selection-start-line="363" selection-end-line="363" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/default/style/streams.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1332">
@@ -480,13 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2304">
           <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/default/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3762">
-          <caret line="209" column="31" selection-start-line="209" selection-start-column="31" selection-end-line="209" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -518,31 +519,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/default/style/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7218">
-          <caret line="401" selection-start-line="401" selection-end-line="401" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/default/news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3978">
-          <caret line="221" column="19" selection-start-line="209" selection-start-column="19" selection-end-line="221" selection-end-column="19" />
+        <state relative-caret-position="1926">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/default/detailNews.html">
+    <entry file="file://$PROJECT_DIR$/default/style/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+        <state relative-caret-position="7254">
+          <caret line="403" selection-start-line="403" selection-end-line="403" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default/mainPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="363" selection-start-line="363" selection-end-line="363" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="180" column="26" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/default/style/detailNews.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="589" column="1" selection-start-line="589" selection-start-column="1" selection-end-line="589" selection-end-column="1" />
+        <state relative-caret-position="753">
+          <caret line="597" column="1" selection-start-line="597" selection-start-column="1" selection-end-line="597" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default/detailNews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="283" column="54" selection-start-line="283" selection-start-column="54" selection-end-line="283" selection-end-column="54" />
         </state>
       </provider>
     </entry>

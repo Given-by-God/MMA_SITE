@@ -3,35 +3,37 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+
 }
 
-.textOnMainArticle a:hover,.nameOfCalendar a:hover{
+
+h2{
+    font-size: 1.3rem;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
+
+a:hover{
     color:#732335;
     text-decoration:none;
 }
+
+
 .blockOnDetailPageImg {
     flex: 1 1 auto;
 }
-.blockOnDetailPageText{text-align:center}
+.blockOnDetailPageText{text-align:center;justify-content: safe;}
 
-.blockOnDetailPage{display:flex;flex-flow:  column;flex-basis:  30%;}
+.blockOnDetailPage{display:flex;flex-flow:  column;flex-basis:  30%;min-width:  178px;justify-content: safe;}
 
 ul{
     margin: 0 !important;
 }
 
-.textOnMainArticle h2{
-    font-size: 1.3rem;
-    /* font-weight: 600; */
-}
 
-.textOnMainArticle a{
-    color:black;
-}
-
-.nameOfCalendar a{
-    color:black;
-}
 .video{
     display:  flex;
     flex-flow: column nowrap;
