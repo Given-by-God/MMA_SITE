@@ -7,8 +7,18 @@
 .imgOfimgOfBigBlockTopCities{
     float:  left;display:  inline-block;
 }
+.promotion:hover{
+    background:#ce584a;
+    cursor:pointer;
+    color:white;
 
+}
 
+.promotion p{
+    text-transform:uppercase;
+    margin:0;
+    padding:0;
+}
 .mainEvent ul,.prelims ul,.earlyPrelims ul{
     margin-top: 3% !important;
     display:  flex;
@@ -137,7 +147,7 @@
     position:  relative;
 }
 
-.promotions{overflow:  hidden;/* height:  60px; */position:  relative;margin: 1% auto 0% auto;/* width: 88%; *//* color: red; *//* background: #8d1c00; */}
+.promotions{/* overflow:  hidden; *//* height:  60px; *//* position:  relative; *//* margin: 1% auto 0% auto; *//* width: 88%; *//* color: red; *//* flex-flow:  row wrap; *//* background: #8d1c00; */}
 
 .promotions ul li:first-child{}
 .promotions ul li a{
@@ -145,14 +155,14 @@
     text-transform:  uppercase;
     text-decoration:  none;
 }
-.promotions ul li{float:  left;margin: 0% 3% 0% 4%;height: 71px;width: 17%;height: 59px;cursor:  pointer;text-align:  center;font-size:  30px;/* background: aliceblue; *//* color:  red; */}
+.promotions ul li{float:  left;/* margin: 0% 3% 0% 4%; *//* height: 71px; *//* width: 17%; *//* height: 59px; */flex-flow: row wrap;flex: 1 1 25%;/* cursor:  pointer; */text-align:  center;font-size:  30px;/* background: aliceblue; *//* color:  red; */justify-content: s;}
 
 .schedule{overflow:  hidden;margin: 0%;}
 
 .schedule ul li:first-child{
 
 }
-.schedule ul li{float:  left;margin: 0 2% 0 1%;/* height: 31px; */width: 3%;/* background: #961600; */font-size:  19px;text-align:  center;color:  white;cursor:  pointer;}
+.schedule ul li{float:  left;margin: 0 1% 0 1%;/* height: 31px; */width: 3%;/* background: #961600; */font-size:  19px;text-align:  center;color:  white;cursor:  pointer;}
 
 
 .dateOfEvent{overflow:  hidden;/* height:  31px; */margin: 0%;background: #4a4a4a;color: white;}
@@ -176,7 +186,7 @@
 .mainEvent ul li, .prelims ul li, .earlyPrelims ul li{
     /* float: left; */
     /* height: 109px; */
-    display: f;
+    /*display: f;*/
     width: 31%;
     margin: 1%;
     overflow:  hidden;
@@ -374,6 +384,14 @@
 .blockOfNewsOnBottom{
 
     border: 1px solid white;
+}
+
+.promotions ul{
+    display:  flex;
+    /* align-items:  center; */
+    margin: 1% !important;
+    flex-flow: row wrap;
+    justify-content: s;
 }
 
 .imgBlock{}

@@ -8,6 +8,29 @@
     height:  100%;
 }
 
+.fights {
+    /* flex: 1 1 104px; */
+    /* text-align:  center; */
+    /* margin: 1%; */
+    /* width:  31%; */
+    /* height: 200px; */
+}
+
+.blockVideo{
+    display:  flex;
+    width: 30%;
+    flex-flow: column;
+    min-width: 250px;
+    margin: 1%;
+}
+
+.videoImg{}
+
+.textOfVideo{
+    text-align:  center;
+    font-size:  20px;
+}
+
 .textOfTopArticles {
     float: left;
     display: table;
@@ -138,10 +161,14 @@
 
 .videoMainBlock{
     background: #ffffff !important;
-    width: 70%;
+    width: 100%;
     float:  left;
 }
-
+.fights{
+    display:  flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
 .nameOfPromotion span{
     font-size: 30px;
 }
