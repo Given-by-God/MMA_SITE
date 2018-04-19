@@ -1,9 +1,8 @@
 *{
-    /* border: 0.1px solid red; */
+     border: 0.1px solid red;
     list-style-type: none;
     padding: 0;
     margin: 0;
-
 }
 
 
@@ -97,7 +96,7 @@ aside{
     /* overflow-x:  hidden; */
     /* height: 800px; */
     /* direction:  rtl; */
-    border: 4px solid #23294b;
+    /* border: 4px solid #23294b; */
 }
 
 .bestOfTheWeek{margin: 2% 0 2% 0;border-bottom: 1px solid;/* padding-bottom: 11px; */overflow:  hidden;padding-bottom: 4px;}
@@ -117,12 +116,17 @@ aside{
 }
 
 .nameOfCalendar{
-    font-size: 18px;
-    text-align:  center;
-    display:  table;
-    height: 85px;
+    /* font-size: 18px; */
+    /* text-align:  center; */
+    /* display:  table; */
+    /* height: 85px; */
     padding: 0 5%;
     margin:  0 auto;
+    flex: 1 1 80%;
+    display:  flex;
+    align-items:  center;
+    /* text-align:  center; */
+    justify-content:  center;
 }
 
 .numberOfMonth{
@@ -133,24 +137,27 @@ aside{
 
 
 .calendarData{
-    width: 58px;
-    display:  inline-block;
+    /* width: 58px; */
+    /* display:  inline-block; */
     /* clear:  both; */
-    float:  left;
+    /* float:  left; */
     border:  1px solid blue;
     text-align:  center;
     margin-left: 1%;
+    flex: 1 1 20%;
+    height: 101px;
 }
 
 .calendarData ul li{}
 
 .calendar{
     width:  100%;
-    overflow:  hidden;
+    /* overflow:  hidden; */
     border-bottom: 1px solid;
     padding: 2px 0;
     /* border-top:  1px solid; */
     margin-bottom: 6px;
+    display:  flex;
 }
 
 

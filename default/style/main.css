@@ -16,7 +16,94 @@
 }
 
 
+.gridImg{
+    /* width: 100%; */
+    /* height:  100%; */
+    flex: 1 1 40%;
+    /* order: 1; */
+}
 
+.blGrid8 .gridImg{
+    /* grid-column: 1/3; */
+    order: 1;
+}
+
+
+.blGrid1{
+    grid-column: 1/3;
+}
+
+.blGrid7 img,.blGrid8 img{
+    /* height: 200px; */
+}
+
+.blGrid7 .gridText,.blGrid8 .gridText{
+    /* height: 200px; */
+}
+
+.blGrid7,.blGrid8{
+    display:  flex;
+    /* flex-flow: row nowrap; */
+    align-items:  center;
+}
+
+
+.nameOfCalendar{
+    flex:1 1 80%;
+}
+
+.blGrid6{
+    grid-column: span 2;
+    height:  auto;
+}
+
+.blGrid6 img{
+    /* grid-column: span 2; */
+    /* height:  auto; */
+    /* width: 100% !important; */
+    height: 238px;
+}
+
+.blGrid7{
+    grid-column:  span 2;
+    /* height: 50%; */
+    background: #772f40;
+}
+.blGrid8{
+    grid-column: span 2;
+    background:  #f9b041;
+}
+
+
+
+.nameOfCalendar h2{
+
+}
+
+
+.nameOfCalendar {
+
+}
+
+.grid{
+    display:  grid;
+    /* grid-template-rows: auto auto 250px; */
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+.gridItem{
+    border: 1px solid #e7e7e7;
+}
+
+.gridImg img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.gridText{flex: 1 1 60%;padding:  1% 4%;}
+.gridText h2{}
+.gridText h2 a{}
 
 
 @media  only screen and (max-width : 950px) {
@@ -624,6 +711,16 @@ a.more{
     display:  flex;
     flex-flow:  row wrap;
 }
+
+.blGrid7 a:hover,.blGrid8 a:hover{
+    color:white;
+}
+
+
+.blGrid7 a,.blGrid8 a{
+    color:white;
+}
+
 .bl{
     display:  flex;
     margin: 3px;
@@ -634,10 +731,8 @@ a.more{
     background:  white;
 }
 .images {
-
     width:  auto;
 }
 .images img{
     width:  100%;
-
 }
