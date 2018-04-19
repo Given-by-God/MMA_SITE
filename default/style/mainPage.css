@@ -1,7 +1,8 @@
 
 .newsOfCard{
     display:  flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-flow:  row wrap;
 }
 
 .imgOfimgOfBigBlockTopCities{
@@ -381,17 +382,13 @@
 
 .title{background: #374593;color:  white;text-align:  center;/* font-size:  57px; */text-transform:  uppercase;/* height: 45px; */margin: 1% 0;padding: 1% 0;}
 
-.blockOfNewsOnBottom{
-
-    border: 1px solid white;
-}
+.blockOfNewsOnBottom{border: 1px solid white;/* flex: 1 1 25%; *//* width: 2%; *//* width:  25%; */flex-basis: 25%;}
 
 .promotions ul{
     display:  flex;
     /* align-items:  center; */
     margin: 1% !important;
     flex-flow: row wrap;
-    justify-content: s;
 }
 
 .imgBlock{}
