@@ -1,11 +1,21 @@
 .mainBlockFighters{
     margin: 2% auto;
-    width: 70%;
+    width: 100%;
     /* border: 1px solid; */
     overflow:  hidden;
     position:  relative;
     background: #ffffff;
     float:  left;
+}
+
+.weightCat{
+    display:  flex;
+    flex-flow:  column;
+    margin:  0 2%;
+}
+
+.man{
+    margin:  2% 0;
 }
 
 .chemp:hover{
@@ -121,6 +131,7 @@
 
 .fightersSpecialPage{
     overflow:  hidden;
+    max-width: 1080px !important;
     background: #ffffff;
 }
 

@@ -522,7 +522,7 @@ a.more{
 }
 .textOfTopArticles span:hover{
     color:#68a2ff;
-    cursor:pointer;
+    /* cursor:pointer; */
 }
 .centerBlock{
     margin: 0 auto;

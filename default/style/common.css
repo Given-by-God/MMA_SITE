@@ -22,7 +22,7 @@ a:hover{
 
 
 .blockOnDetailPageImg {
-    flex: 1 1 auto;
+    flex: 1 1 50%;
 }
 .blockOnDetailPageText{text-align:center;justify-content: safe;}
 
@@ -88,7 +88,7 @@ ul{
 aside{
     margin: 2% 0 0 1%;
     float: left;
-    width: 28%;
+    width: 27%;
     /* height:  701px; */
 }
 .scrollRightMenu{
@@ -112,7 +112,7 @@ aside{
 
 .textOfTopArticles span:hover{
     color:#167bb9;
-    cursor:pointer;
+    /* cursor:pointer; */
 }
 
 .nameOfCalendar{
@@ -219,7 +219,7 @@ aside{
 
 .textOfTopArticles span:hover{
     color: #473ac2;
-    cursor:pointer;
+    /* cursor:pointer; */
 }
 .data{float: left;margin: 1%;/* background:  red; */display:  inline-block;/* background:  white; */color: #721c24;}
 
@@ -260,12 +260,12 @@ body{
     margin: 5px;
     align-items: flex-start;
     /* border-bottom: 1px solid white; */
-    border-top: 1px solid #d4d4d4;
+    /* border-top: 1px solid #d4d4d4; */
     /* background: white; */
 }
 .imageOnMainArticle img{
-    width:  100%;
-    height:  auto;
+    width: 160px;
+    height: 120px;
 }
 
 
@@ -288,7 +288,7 @@ body{
 }
 
 
-.imageOnMainArticle{flex: 1 1 25px;min-width: 120px;}
+.imageOnMainArticle{/* flex: 1 1 auto; */min-width: 120px;}
 @media  only screen and (max-width : 560px) {
     .filterFlex{flex-flow: row wrap !important;/* flex-basis: 100px; *//* flex-direction:  row; */}
 
@@ -382,6 +382,13 @@ body{
     max-width: 1200px;
 }
 
+.promotions {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    margin:  2% 0;
+}
+
 .cls{
     clear: both;
 }
@@ -389,6 +396,7 @@ body{
 .mainBlock{
     overflow:  hidden;
     position:  relative;
+    margin-left: 1%;
     /* background-color: rgba(0, 0, 0, 0.7); */
 }
 

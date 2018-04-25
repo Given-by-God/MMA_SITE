@@ -35,7 +35,10 @@
     /* clear: left; */
 }
 
-.onlyNewsRightMenu{}
+.onlyNewsRightMenu{
+    width: 25%;
+    margin-left:  3%;
+}
 
 .weightHeightCat{
     float:  left;
@@ -139,7 +142,7 @@
 }
 
 .specialBlockForDetailPage{
-    max-width: 1200px;
+    max-width: 1080px;
     overflow: hidden;
     background: white;
     margin: 8% auto;
