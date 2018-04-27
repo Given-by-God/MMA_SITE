@@ -12,8 +12,12 @@
         margin:0 auto !important;
     }
 }
+
+
+
+
 .newsSpecialPage{
-    max-width: 1080px !important;
+    /* max-width: 1071px !important; */
 }
 
 .rightFloatingBlock h2 a{
@@ -509,12 +513,7 @@ a.more{
     margin:  0;
 }
 
-.onlyNewsRightMenu{
-    width: 29%;
-    margin-right: 1%;
-    float:  right;
-    /* border-left:  1px solid wheat; */
-}
+
 
 .textOfTopArticles span{
     display:table-cell;
@@ -524,10 +523,7 @@ a.more{
     color:#68a2ff;
     /* cursor:pointer; */
 }
-.centerBlock{
-    margin: 0 auto;
-    width: 100%;
-}
+
 
 .lineArticle img{width:  100%;height:  100%;}
 

@@ -576,11 +576,7 @@ a.more{
     color:#68a2ff;
     cursor:pointer;
 }
-.centerBlock{
-    /* margin: 0 auto; */
-    /* width: 100%; */
-    border-left: 1px solid #dedede;
-}
+
 .NewsOnDetailPageRight{
     display:  flex;
     flex-flow: row nowrap;
