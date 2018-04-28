@@ -20,6 +20,38 @@
 
 
 
+<div id="jquery_jplayer_1"></div>
+<div id="jp_container_1">
+    <a href="#" class="jp-play">Play</a>
+    <a href="#" class="jp-pause">Pause</a>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#jquery_jplayer_1").jPlayer({
+            ready: function () {
+                $(this).jPlayer("setMedia", {
+                    m4a: "/media/mysound.mp4",
+                    oga: "/media/mysound.ogg"
+                });
+            },
+            swfPath: "/js",
+            supplied: "m4a, oga"
+        });
+    });
+</script>
+
+
+
+
+<!--<iframe width="560" height="315" src="https://live-301.media-t.ru/LIVE/LIVE:133529/HLS/1524811343/Q5suc6R5VHmJXxOj3cercw/live/133529_3/chunklist.m3u8" frameborder="0" allowfullscreen></iframe>-->
+
+
+<!--<video>-->
+    <!--<source src="https://live-301.media-t.ru/LIVE/LIVE:133529/HLS/1524811343/Q5suc6R5VHmJXxOj3cercw/live/133529_3/chunklist.m3u8">test-->
+<!--</video>-->
+
 <div class="commonBlock specialPageVideo">
 
     <div class="titleCommon">

@@ -36,6 +36,7 @@
 .blGrid1{
     grid-column: 1/3;
     grid-row: 1/3;
+    position:  relative;
 }
 
 
@@ -45,7 +46,7 @@
         flex-flow:  column;
     }
     .blGrid8 .gridImg{
-        order:0;
+        /* order:0; */
     }
     .blGrid3{
         display:  none;
@@ -63,7 +64,7 @@
 
 .blGrid7,.blGrid8{
     display:  flex;
-    /* flex-flow: row nowrap; */
+    flex-flow: row nowrap;
     align-items:  center;
 }
 
@@ -112,9 +113,8 @@
 
 .grid{
     display:  grid;
-    /* grid-template-rows: auto auto 250px; */
+    grid-template-rows: auto auto 117px;
     grid-template-columns: repeat(4,1fr);
-
 }
 
 .gridItem{
@@ -123,7 +123,10 @@
 
 .gridImg img{
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
+    /* opacity: 0.26; */
+    /* background-image: linear-gradient(to bottom, transparent 0, rgba(20, 30, 51, 0.1) 20%, rgba(20, 30, 51, 0.6) 60%, rgba(20, 30, 51, 0.9) 100%); */
+    /* background: -webkit-linear-gradient(top, transparent 0, rgba(20, 30, 51, 0.1) 20%, rgba(20, 30, 51, 0.6) 60%, rgba(20, 30, 51, 0.9) 100%); */
 }
 
 .gridText{flex: 1 1 50%;padding:  1% 4%;}
@@ -223,7 +226,7 @@
         display:  flex;
         flex-flow: row wrap;
     }
-    .gridItem{/* color:white; */display:  flex;}
+    .gridItem{color:white;display:  flex;}
 
     .blGrid7,.blGrid8{
         grid-column:span 2;
@@ -263,6 +266,13 @@
         /* clear:both; */
         margin: 0 auto !important;
     }
+
+    .blGrid7 .gridImg, .blGrid8 .gridImg {
+        width: auto !important;
+        height: auto !important;
+        order: 0;
+    }
+
 
 }
 
@@ -353,7 +363,7 @@ hr{
 
 main{
     float:left;
-    width: 70%;
+    width: 67%;
     margin-top: 2%;
     background: #ffffff;
 }
@@ -775,7 +785,9 @@ a.more{
     color:white;
 }
 
-
+.darkedImg a:hover{
+    color:white !important;
+}
 .blGrid7 a,.blGrid8 a{
     color:white;
 }

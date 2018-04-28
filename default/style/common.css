@@ -5,8 +5,32 @@
     margin: 0;
 }
 
+
+.blGrid1 .gridText{
+    position:  absolute;
+    bottom:  0;
+    width: 100%;
+    /* color:  yellow; */
+    /* background: red; */
+    z-index: 1;
+}
+
+.blGrid1 .gridText a{
+    /* bottom:  0; */
+    /* width: 100%; */
+    color: #ffb708;
+    /* background: red; */
+    font-size:  24px;
+    font-weight:  600;
+}
+
+
 .nameOfVideo h2 a{
     color:white;
+}
+.blGrid7 .gridImg,.blGrid8 .gridImg{
+    width:  195px;
+    height:  117px;
 }
 
 .nameOfVideo h2 a:hover
@@ -20,6 +44,7 @@
     border: 15px solid #25374a;
     background: #25374a;
     color: white;
+    overflow: hidden;
 }
 
 
@@ -49,6 +74,7 @@ h2{
 a{
     color:black;
     text-decoration:none;
+    /* z-index:  4; */
 }
 
 a:hover{
@@ -98,17 +124,14 @@ ul{
 
 .rightMenu div{
     flex:  1 1 auto;
-    text-align:  center;
-    font-size:  22px;
-    margin-bottom: 5px;
-    border: 1px solid black;
-}
-.rightMenu div:hover{
-
-    background: #4242bb;
+    /* text-align:  center; */
+    /* font-size:  22px; */
+    /* margin-bottom: 5px; */
+    /* border: 1px solid black; */
+    background: #25384a;
     color: white;
-    cursor:pointer;
 }
+.rightMenu div:hover{/* background: #4242bb; *//* color: white; *//* cursor:pointer; */}
 
 
 .nameOfCalendar span:hover{
@@ -123,10 +146,13 @@ ul{
 
 
 aside{
-    margin: 2% 0 0 1%;
-    float: left;
-    width: 27%;
+    margin: 2% 1% 5% 1%;
+    float: right;
+    width: 29%;
     /* height:  701px; */
+    /*margin: 1;*/
+    overflow:  scroll;
+    overflow-x: hidden;
 }
 .scrollRightMenu{
     /* overflow:  scroll; */
@@ -440,6 +466,38 @@ body{
 
 .rightMenu ul li:first-child{
     width: 52%;
+}
+
+
+.blGrid1 .gridImg{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.25);
+    /* opacity: 0.5; */
+    /* z-index:  1; */
+    /* background-image: linear-gradient(to bottom, transparent 0, rgba(20, 30, 51, 0.1) 20%, rgba(20, 30, 51, 0.6) 60%, rgba(20, 30, 51, 0.9) 100%); */
+    /* background: -webkit-linear-gradient(top, transparent 0, rgba(20, 30, 51, 0.1) 20%, rgba(20, 30, 51, 0.6) 60%, rgba(20, 30, 51, 0.9) 100%); */
+}
+
+.calendar:first-child{
+    border-top:1px solid black;
+}
+.darkedImg{
+    position:relative;
+    height:  100%;
+}
+
+.darkedImg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0,0,0,0.3); */
+    z-index: 0;
+    background-image: linear-gradient(to bottom, transparent 0, rgba(20, 30, 51, 0.1) 20%, rgba(20, 30, 51, 0.6) 60%, rgba(20, 30, 51, 0.9) 100%);
+    background: -webkit-linear-gradient(top, transparent 0, rgba(20, 30, 51, 0.1) 20%, rgba(20, 30, 51, 0.6) 60%, rgba(20, 30, 51, 0.9) 100%);
 }
 
 .text:hover{
