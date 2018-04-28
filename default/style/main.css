@@ -113,7 +113,7 @@
 
 .grid{
     display:  grid;
-    grid-template-rows: auto auto 117px;
+    /* grid-template-rows: auto auto 117px; */
     grid-template-columns: repeat(4,1fr);
 }
 
@@ -229,8 +229,9 @@
     .gridItem{color:white;display:  flex;}
 
     .blGrid7,.blGrid8{
-        grid-column:span 2;
+        grid-column: span 2 !important;
         flex-flow:  row;
+        width: 100%;
     }
 
 
