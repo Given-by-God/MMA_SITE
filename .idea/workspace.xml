@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="61ec560e-64da-458b-8b87-5c9c164fe527" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/default/main.html" afterPath="$PROJECT_DIR$/default/main.html" />
-      <change beforePath="$PROJECT_DIR$/default/news.html" afterPath="$PROJECT_DIR$/default/news.html" />
-      <change beforePath="$PROJECT_DIR$/default/style/common.css" afterPath="$PROJECT_DIR$/default/style/common.css" />
       <change beforePath="$PROJECT_DIR$/default/style/main.css" afterPath="$PROJECT_DIR$/default/style/main.css" />
-      <change beforePath="$PROJECT_DIR$/default/video.html" afterPath="$PROJECT_DIR$/default/video.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/default/style/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="507" column="12" lean-forward="true" selection-start-line="507" selection-start-column="12" selection-end-line="507" selection-end-column="12" />
+            <state relative-caret-position="552">
+              <caret line="515" column="0" lean-forward="true" selection-start-line="515" selection-start-column="0" selection-end-line="515" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/default/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="809" column="0" lean-forward="true" selection-start-line="809" selection-start-column="0" selection-end-line="809" selection-end-column="0" />
+            <state relative-caret-position="282">
+              <caret line="795" column="5" lean-forward="false" selection-start-line="795" selection-start-column="5" selection-end-line="795" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -197,8 +193,8 @@
         <option value="$PROJECT_DIR$/default/style/news.css" />
         <option value="$PROJECT_DIR$/default/news.html" />
         <option value="$PROJECT_DIR$/default/main.html" />
-        <option value="$PROJECT_DIR$/default/style/main.css" />
         <option value="$PROJECT_DIR$/default/style/common.css" />
+        <option value="$PROJECT_DIR$/default/style/main.css" />
       </list>
     </option>
   </component>
@@ -406,7 +402,7 @@
       <workItem from="1524108642294" duration="11757000" />
       <workItem from="1524629539518" duration="55000" />
       <workItem from="1524629618091" duration="23715000" />
-      <workItem from="1524810457771" duration="22706000" />
+      <workItem from="1524810457771" duration="23520000" />
     </task>
     <task id="LOCAL-00001" summary="workPlace_add_gitIgnore">
       <created>1524108899095</created>
@@ -436,11 +432,25 @@
       <option name="project" value="LOCAL" />
       <updated>1524797398649</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="last change">
+      <created>1524910599892</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524910599892</updated>
+    </task>
+    <task id="LOCAL-00006" summary="last change">
+      <created>1524911395415</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1524911395415</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328487000" />
+    <option name="totallyTimeSpent" value="329301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -742,18 +752,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/default/style/main.css">
+    <entry file="file://$PROJECT_DIR$/default/style/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
-          <caret line="809" column="0" lean-forward="true" selection-start-line="809" selection-start-column="0" selection-end-line="809" selection-end-column="0" />
+          <caret line="515" column="0" lean-forward="true" selection-start-line="515" selection-start-column="0" selection-end-line="515" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/default/style/common.css">
+    <entry file="file://$PROJECT_DIR$/default/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="507" column="12" lean-forward="true" selection-start-line="507" selection-start-column="12" selection-end-line="507" selection-end-column="12" />
+        <state relative-caret-position="282">
+          <caret line="795" column="5" lean-forward="false" selection-start-line="795" selection-start-column="5" selection-end-line="795" selection-end-column="5" />
           <folding />
         </state>
       </provider>
