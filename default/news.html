@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-    <link rel="stylesheet" href="style/footer.css">
-    <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/news.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
@@ -24,11 +21,11 @@
             <ul class="menu">
                 <li class="main">
                     <div class="hoverMenu">
-                        <a href="#">Бойцы</a>
+                        <a href="#">новости</a>
                     </div>
                 </li>
-                <li><a href="#">Видео</a></li>
-                <li><a href="#">Новости</a></li>
+                <li><a href="#">видео</a></li>
+                <li><a href="#">трансляции</a></li>
                 <li><a href="#">О сайте</a></li>
             </ul>
 
@@ -49,44 +46,11 @@
 
 <div class="commonBlock newsSpecialPage">
 
-    <div class="titleCommon">
-        <span>новости</span>
-    </div>
-
-<div class="mainBlock mainContent">
-
-
-    <!--<div class="rightFloatingBlock">-->
-        <!--<ul>-->
-            <!--<li>-->
-                <!--<h2>-->
-                    <!--<a href="#">KO of the Week: Paul Felder vs Stevie Ray</a>-->
-                <!--</h2>-->
-                <!--<iframe width="20px" height="40px" src="https://www.youtube.com/embed/7APwwMUYEoA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
-            <!--</li>-->
-            <!--<hr>-->
-
-            <!--<li>-->
-                <!--<h2>KO of the Week: Paul Felder vs Stevie Ray</h2>-->
-
-                <!--<iframe width="20px" height="40px" src="https://www.youtube.com/embed/7APwwMUYEoA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
-            <!--</li>-->
-
-            <!--<hr>-->
-            <!--<li>-->
-                <!--<h2>KO of the Week: Paul Felder vs Stevie Ray</h2>-->
-
-                <!--<iframe width="20px" height="40px" src="https://www.youtube.com/embed/7APwwMUYEoA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
-            <!--</li>-->
-            <!--<hr>-->
-            <!--<li>-->
-                <!--<h2>KO of the Week: Paul Felder vs Stevie Ray</h2>-->
-
-                <!--<iframe width="20px" height="40px" src="https://www.youtube.com/embed/7APwwMUYEoA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
-            <!--</li>-->
-        <!--</ul>-->
+    <!--<div class="titleCommon">-->
+        <!--<span>новости</span>-->
     <!--</div>-->
 
+<div class="mainBlock mainContent">
 
     <main>
 
@@ -98,24 +62,22 @@
 
             <div class="filterFlex">
                 <div class="insideFilterBlock">Все подряд</div>
-                <div class="insideFilterBlock">бокс</div>
                 <div class="insideFilterBlock">mma
-                    <!--<select class="form-control">-->
-                        <!--<option>-->
-                            <!--ufc-->
-                        <!--</option>-->
-                        <!--<option>-->
-                            <!--bellator-->
-                        <!--</option>-->
-                        <!--<option>-->
-                            <!--acb-->
-                        <!--</option>-->
-                        <!--<option>-->
-                            <!--m1 global-->
-                        <!--</option>-->
-                    <!--</select>-->
-                    </div>
+                    <select class="form-control">
+                        <option>
+                            ufc
+                        </option>
+                        <option>
+                            bellator
+                        </option>
+                        <option>
+                            acb
+                        </option>
+                    </select>
+                </div>
+
                 <div class="insideFilterBlock">Анонсы боев</div>
+                <div class="insideFilterBlock">мемасики</div>
             </div>
 
         </div>
@@ -127,6 +89,22 @@
         </div>
 
         <div class="bottomArticle">
+
+            <article class="memesArticle">
+                <div class="memesMain">
+                    <div class="memesTitle">lorem3</div>
+                    <div class="memesImg">
+                        <img src="style/img/khabibMiddle.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        комментарии
+                    </div>
+                </div>
+
+
+            </article>
+
+
 
             <article>
                 <div class="articleOnMain">
@@ -152,6 +130,7 @@
 
                 </div>
             </article>
+
             <article>
                 <div class="articleOnMain">
                     <div class="imageOnMainArticle">
@@ -176,6 +155,7 @@
 
                 </div>
             </article>
+
             <article>
                 <div class="articleOnMain">
                     <div class="imageOnMainArticle">
@@ -223,7 +203,6 @@
 
         </div>
 
-
         <article class="calendar">
             <div class="calendarData">
 
@@ -271,18 +250,11 @@
             </div>
 
         </article>
-
-
-
 
     </aside>
 
 
-    <aside class="onlyNewsRightMenu">
-
-
-
-
+    <aside class="onlyNewsRightMenu newsPopular">
 
         <div class="nameOfAsideRight">
             <!--<div>Календарь</div>-->
@@ -291,14 +263,7 @@
         </div>
         <div class="centerBlock">
 
-
-
         <div class="scrollRightMenu ">
-
-
-
-
-
 
             <article>
                 <div class="video">
@@ -339,9 +304,6 @@
                     </div>
                 </div>
             </article>
-
-
-
         </div>
         </div>
     </aside>
